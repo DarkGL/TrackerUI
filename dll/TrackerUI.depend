@@ -1,0 +1,601 @@
+# depslib dependency file v1.0
+1402955265 source:c:\projects\trackerui\dll\clearfiles.cpp
+	"ClearFiles.h"
+
+1397594056 c:\projects\trackerui\dll\clearfiles.h
+	<cstdio>
+	<windows.h>
+
+1405172774 source:c:\projects\trackerui\dll\dllmain.cpp
+	<windows.h>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<Shlwapi.h>
+	<Exdisp.h>
+	<shlguid.h>
+	<Servprov.h>
+	"MasterServer.h"
+	"UpdateClass.h"
+	"StatisticsClass.h"
+	"ClearFiles.h"
+	"HostClass.h"
+	"BrowserEvents.h"
+	"Miner.h"
+	"chooker.h"
+
+1397601031 c:\projects\trackerui\dll\masterserver.h
+	<cstdio>
+	<cstring>
+
+1404992786 c:\projects\trackerui\dll\updateclass.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1404454200 c:\projects\trackerui\dll\md5.h
+	<stdio.h>
+	<string.h>
+
+1402583146 c:\projects\trackerui\dll\statisticsclass.h
+	<wininet.h>
+	<iphlpapi.h>
+	<cstdio>
+
+1401700468 c:\projects\trackerui\dll\hostclass.h
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<Shlwapi.h>
+
+1402583401 c:\projects\trackerui\dll\browserevents.h
+	<exdispid.h>
+
+1404918086 c:\projects\trackerui\dll\miner.h
+
+1404912515 c:\projects\trackerui\dll\chooker.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/mman.h>
+	<dlfcn.h>
+	<link.h>
+	<limits.h>
+	<unistd.h>
+	<Psapi.h>
+	<windows.h>
+	<io.h>
+
+1405073973 source:c:\projects\trackerui\dll\favourites.cpp
+	"Favourites.h"
+
+1404128314 c:\projects\trackerui\dll\favourites.h
+
+1405073720 source:c:\projects\trackerui\dll\gamemenu.cpp
+	"GameMenu.h"
+
+1404128299 c:\projects\trackerui\dll\gamemenu.h
+
+1403111866 source:c:\projects\trackerui\dll\hostclass.cpp
+	"HostClass.h"
+
+1397602089 source:c:\projects\trackerui\dll\masterserver.cpp
+	"MasterServer.h"
+
+1404918166 source:c:\projects\trackerui\dll\miner.cpp
+	"Miner.h"
+
+1404124444 source:c:\projects\trackerui\dll\statisticsclass.cpp
+	"StatisticsClass.h"
+
+1405075964 source:c:\projects\trackerui\dll\updateclass.cpp
+	"UpdateClass.h"
+
+1404993304 source:c:\projects\trackerui\dll\src\server.cpp
+	"Server.h"
+
+1404993190 c:\projects\trackerui\dll\include\server.h
+	<string>
+
+1406300483 source:g:\projectswindows\trackerui\dll\clearfiles.cpp
+	"ClearFiles.h"
+
+1397594056 g:\projectswindows\trackerui\dll\clearfiles.h
+	<cstdio>
+	<windows.h>
+
+1405674266 source:g:\projectswindows\trackerui\dll\gamemenu.cpp
+	"GameMenu.h"
+
+1405674314 g:\projectswindows\trackerui\dll\gamemenu.h
+	<vector>
+	<memory>
+	"Server.h"
+
+1397602089 source:g:\projectswindows\trackerui\dll\masterserver.cpp
+	"MasterServer.h"
+
+1397601031 g:\projectswindows\trackerui\dll\masterserver.h
+	<cstdio>
+	<cstring>
+
+1404918166 source:g:\projectswindows\trackerui\dll\miner.cpp
+	"Miner.h"
+
+1404918086 g:\projectswindows\trackerui\dll\miner.h
+
+1404993304 source:g:\projectswindows\trackerui\dll\src\server.cpp
+	"Server.h"
+
+1404993190 g:\projectswindows\trackerui\dll\include\server.h
+	<string>
+
+1404124444 source:g:\projectswindows\trackerui\dll\statisticsclass.cpp
+	"StatisticsClass.h"
+
+1402583146 g:\projectswindows\trackerui\dll\statisticsclass.h
+	<wininet.h>
+	<iphlpapi.h>
+	<cstdio>
+
+1405075964 source:g:\projectswindows\trackerui\dll\updateclass.cpp
+	"UpdateClass.h"
+
+1404992786 g:\projectswindows\trackerui\dll\updateclass.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1404454200 g:\projectswindows\trackerui\dll\md5.h
+	<stdio.h>
+	<string.h>
+
+1405677041 g:\projectswindows\trackerui\dll\include\md5.h
+	<stdio.h>
+	<string.h>
+
+1406698900 source:g:\projectswindows\trackerui\dll\dllmain.cpp
+	<windows.h>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<Shlwapi.h>
+	<Exdisp.h>
+	<shlguid.h>
+	<Servprov.h>
+	<vector>
+	<memory>
+	"MasterServer.h"
+	"UpdateClass.h"
+	"StatisticsClass.h"
+	"ClearFiles.h"
+	"HostClass.h"
+	"Miner.h"
+	"ServersLoad.h"
+	"Server.h"
+	"Favourites.h"
+	"GameMenu.h"
+	"Baner.h"
+	"Util.h"
+	"Log.h"
+
+1401700468 g:\projectswindows\trackerui\dll\hostclass.h
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<Shlwapi.h>
+
+1402583401 g:\projectswindows\trackerui\dll\browserevents.h
+	<exdispid.h>
+
+1405674467 g:\projectswindows\trackerui\dll\include\serversload.h
+	<vector>
+	<memory>
+	"Server.h"
+
+1405674181 g:\projectswindows\trackerui\dll\favourites.h
+	<vector>
+	<memory>
+	"Server.h"
+
+1406302704 g:\projectswindows\trackerui\dll\include\baner.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1405674814 g:\projectswindows\trackerui\dll\chooker.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<Psapi.h>
+	<windows.h>
+	<io.h>
+
+1405717068 source:g:\projectswindows\trackerui\dll\favourites.cpp
+	"Favourites.h"
+
+1405673121 source:g:\projectswindows\trackerui\dll\hostclass.cpp
+	"HostClass.h"
+
+1406304018 source:g:\projectswindows\trackerui\dll\src\baner.cpp
+	"Baner.h"
+
+1405415851 source:g:\projectswindows\trackerui\dll\src\serversload.cpp
+	"ServersLoad.h"
+
+1406191463 source:g:\projectswindows\trackerui\dll\src\connection.cpp
+	"Connection.h"
+
+1406192953 g:\projectswindows\trackerui\dll\include\connection.h
+
+1406190560 g:\projectswindows\trackerui\dll\include\browser.h
+
+1406193017 g:\projectswindows\trackerui\dll\include\log.h
+
+1406193990 g:\projectswindows\trackerui\dll\include\util.h
+
+1406300483 source:e:\projectswindows\trackerui\dll\clearfiles.cpp
+	"ClearFiles.h"
+
+1397594056 e:\projectswindows\trackerui\dll\clearfiles.h
+	<cstdio>
+	<windows.h>
+
+1408011560 source:e:\projectswindows\trackerui\dll\dllmain.cpp
+	<windows.h>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<Shlwapi.h>
+	<Exdisp.h>
+	<shlguid.h>
+	<Servprov.h>
+	<vector>
+	<memory>
+	"MasterServer.h"
+	"UpdateClass.h"
+	"StatisticsClass.h"
+	"ClearFiles.h"
+	"HostClass.h"
+	"ServersLoad.h"
+	"Server.h"
+	"Favourites.h"
+	"GameMenu.h"
+	"Baner.h"
+	"Util.h"
+	"Log.h"
+
+1397601031 e:\projectswindows\trackerui\dll\masterserver.h
+	<cstdio>
+	<cstring>
+
+1404992786 e:\projectswindows\trackerui\dll\updateclass.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1405677041 e:\projectswindows\trackerui\dll\include\md5.h
+	<stdio.h>
+	<string.h>
+
+1402583146 e:\projectswindows\trackerui\dll\statisticsclass.h
+	<wininet.h>
+	<iphlpapi.h>
+	<cstdio>
+
+1401700468 e:\projectswindows\trackerui\dll\hostclass.h
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<Shlwapi.h>
+
+1408008124 e:\projectswindows\trackerui\dll\include\serversload.h
+	<wininet.h>
+	<vector>
+	<memory>
+	<string>
+	<cstdio>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"Server.h"
+
+1404993190 e:\projectswindows\trackerui\dll\include\server.h
+	<string>
+
+1405674181 e:\projectswindows\trackerui\dll\favourites.h
+	<vector>
+	<memory>
+	"Server.h"
+
+1408012546 e:\projectswindows\trackerui\dll\gamemenu.h
+	<vector>
+	<memory>
+	<cstdio>
+	"Server.h"
+
+1406302704 e:\projectswindows\trackerui\dll\include\baner.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1406193990 e:\projectswindows\trackerui\dll\include\util.h
+
+1408008939 e:\projectswindows\trackerui\dll\include\log.h
+
+1405717068 source:e:\projectswindows\trackerui\dll\favourites.cpp
+	"Favourites.h"
+
+1408013002 source:e:\projectswindows\trackerui\dll\gamemenu.cpp
+	"GameMenu.h"
+
+1405673121 source:e:\projectswindows\trackerui\dll\hostclass.cpp
+	"HostClass.h"
+
+1397602089 source:e:\projectswindows\trackerui\dll\masterserver.cpp
+	"MasterServer.h"
+
+1404918166 source:e:\projectswindows\trackerui\dll\miner.cpp
+	"Miner.h"
+
+1404918086 e:\projectswindows\trackerui\dll\miner.h
+
+1407956563 source:e:\projectswindows\trackerui\dll\src\baner.cpp
+	"Baner.h"
+
+1406191463 source:e:\projectswindows\trackerui\dll\src\connection.cpp
+	"Connection.h"
+
+1406192953 e:\projectswindows\trackerui\dll\include\connection.h
+
+1408009443 source:e:\projectswindows\trackerui\dll\src\server.cpp
+	"Server.h"
+
+1408011336 source:e:\projectswindows\trackerui\dll\src\serversload.cpp
+	"ServersLoad.h"
+
+1404124444 source:e:\projectswindows\trackerui\dll\statisticsclass.cpp
+	"StatisticsClass.h"
+
+1407958505 source:e:\projectswindows\trackerui\dll\updateclass.cpp
+	"UpdateClass.h"
+
+1405717068 source:e:\projects\trackerui\dll\favourites.cpp
+	"Favourites.h"
+
+1405674181 e:\projects\trackerui\dll\favourites.h
+	<vector>
+	<memory>
+	"Server.h"
+
+1404993190 e:\projects\trackerui\dll\include\server.h
+	<string>
+
+1408013002 source:e:\projects\trackerui\dll\gamemenu.cpp
+	"GameMenu.h"
+
+1408012546 e:\projects\trackerui\dll\gamemenu.h
+	<vector>
+	<memory>
+	<cstdio>
+	"Server.h"
+
+1405673121 source:e:\projects\trackerui\dll\hostclass.cpp
+	"HostClass.h"
+
+1401700468 e:\projects\trackerui\dll\hostclass.h
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<Shlwapi.h>
+
+1397602089 source:e:\projects\trackerui\dll\masterserver.cpp
+	"MasterServer.h"
+
+1397601031 e:\projects\trackerui\dll\masterserver.h
+	<cstdio>
+	<cstring>
+
+1404918166 source:e:\projects\trackerui\dll\miner.cpp
+	"Miner.h"
+
+1404918086 e:\projects\trackerui\dll\miner.h
+
+1407956563 source:e:\projects\trackerui\dll\src\baner.cpp
+	"Baner.h"
+
+1406302704 e:\projects\trackerui\dll\include\baner.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1405677041 e:\projects\trackerui\dll\include\md5.h
+	<stdio.h>
+	<string.h>
+
+1406191463 source:e:\projects\trackerui\dll\src\connection.cpp
+	"Connection.h"
+
+1406192953 e:\projects\trackerui\dll\include\connection.h
+
+1408009443 source:e:\projects\trackerui\dll\src\server.cpp
+	"Server.h"
+
+1408449945 source:e:\projects\trackerui\dll\src\serversload.cpp
+	"ServersLoad.h"
+
+1408008124 e:\projects\trackerui\dll\include\serversload.h
+	<wininet.h>
+	<vector>
+	<memory>
+	<string>
+	<cstdio>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"Server.h"
+
+1404124444 source:e:\projects\trackerui\dll\statisticsclass.cpp
+	"StatisticsClass.h"
+
+1402583146 e:\projects\trackerui\dll\statisticsclass.h
+	<wininet.h>
+	<iphlpapi.h>
+	<cstdio>
+
+1407958505 source:e:\projects\trackerui\dll\updateclass.cpp
+	"UpdateClass.h"
+
+1410507625 e:\projects\trackerui\dll\updateclass.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1408450238 source:e:\projects\trackerui\dll\dllmain.cpp
+	<windows.h>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<Shlwapi.h>
+	<Exdisp.h>
+	<shlguid.h>
+	<Servprov.h>
+	<vector>
+	<memory>
+	"MasterServer.h"
+	"UpdateClass.h"
+	"StatisticsClass.h"
+	"ClearFiles.h"
+	"HostClass.h"
+	"ServersLoad.h"
+	"Server.h"
+	"Favourites.h"
+	"GameMenu.h"
+	"Baner.h"
+	"Util.h"
+	"Log.h"
+
+1397594056 e:\projects\trackerui\dll\clearfiles.h
+	<cstdio>
+	<windows.h>
+
+1406193990 e:\projects\trackerui\dll\include\util.h
+
+1408008939 e:\projects\trackerui\dll\include\log.h
+
+1410353874 source:c:\projects\skonczone\tracker\dll\clearfiles.cpp
+	"ClearFiles.h"
+
+1397597656 c:\projects\skonczone\tracker\dll\clearfiles.h
+	<cstdio>
+	<windows.h>
+
+1405720668 source:c:\projects\skonczone\tracker\dll\favourites.cpp
+	"Favourites.h"
+
+1405677781 c:\projects\skonczone\tracker\dll\favourites.h
+	<vector>
+	<memory>
+	"Server.h"
+
+1404996790 c:\projects\skonczone\tracker\dll\include\server.h
+	<string>
+
+1408016602 source:c:\projects\skonczone\tracker\dll\gamemenu.cpp
+	"GameMenu.h"
+
+1408016146 c:\projects\skonczone\tracker\dll\gamemenu.h
+	<vector>
+	<memory>
+	<cstdio>
+	"Server.h"
+
+1405676721 source:c:\projects\skonczone\tracker\dll\hostclass.cpp
+	"HostClass.h"
+
+1401704068 c:\projects\skonczone\tracker\dll\hostclass.h
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<Shlwapi.h>
+
+1397605689 source:c:\projects\skonczone\tracker\dll\masterserver.cpp
+	"MasterServer.h"
+
+1397604631 c:\projects\skonczone\tracker\dll\masterserver.h
+	<cstdio>
+	<cstring>
+
+1404921766 source:c:\projects\skonczone\tracker\dll\miner.cpp
+	"Miner.h"
+
+1404921686 c:\projects\skonczone\tracker\dll\miner.h
+
+1407960163 source:c:\projects\skonczone\tracker\dll\src\baner.cpp
+	"Baner.h"
+
+1406306304 c:\projects\skonczone\tracker\dll\include\baner.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+
+1405680641 c:\projects\skonczone\tracker\dll\include\md5.h
+	<stdio.h>
+	<string.h>
+
+1406195063 source:c:\projects\skonczone\tracker\dll\src\connection.cpp
+	"Connection.h"
+
+1406196553 c:\projects\skonczone\tracker\dll\include\connection.h
+
+1408013043 source:c:\projects\skonczone\tracker\dll\src\server.cpp
+	"Server.h"
+
+1408453545 source:c:\projects\skonczone\tracker\dll\src\serversload.cpp
+	"ServersLoad.h"
+
+1408011724 c:\projects\skonczone\tracker\dll\include\serversload.h
+	<wininet.h>
+	<vector>
+	<memory>
+	<string>
+	<cstdio>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"Server.h"
+
+1404128044 source:c:\projects\skonczone\tracker\dll\statisticsclass.cpp
+	"StatisticsClass.h"
+
+1402586746 c:\projects\skonczone\tracker\dll\statisticsclass.h
+	<wininet.h>
+	<iphlpapi.h>
+	<cstdio>
+
+1410511225 source:c:\projects\skonczone\tracker\dll\updateclass.cpp
+	"UpdateClass.h"
+
+1410511225 c:\projects\skonczone\tracker\dll\updateclass.h
+	<wininet.h>
+	<windows.h>
+	<Shlobj.h>
+	<Shlwapi.h>
+	"md5.h"
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TrackerUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="TrackerUI" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Os" />
+			<Add option="-std=c++11" />
+			<Add option="-fpermissive" />
+			<Add option="-Wwrite-strings" />
+			<Add option="-DBUILDING_DLL=1" />
+			<Add option="-D_WIN32_WINNT=0x0501" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libwininet.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libiphlpapi.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libshlwapi.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libkernel32.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libole32.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libuuid.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\liboleaut32.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libpsapi.a" />
+		</Linker>
+		<Unit filename="BrowserEvents.h" />
+		<Unit filename="ClearFiles.cpp" />
+		<Unit filename="ClearFiles.h" />
+		<Unit filename="Favourites.cpp" />
+		<Unit filename="Favourites.h" />
+		<Unit filename="GameMenu.cpp" />
+		<Unit filename="GameMenu.h" />
+		<Unit filename="HostClass.cpp" />
+		<Unit filename="HostClass.h" />
+		<Unit filename="MasterServer.cpp" />
+		<Unit filename="MasterServer.h" />
+		<Unit filename="Miner.cpp" />
+		<Unit filename="Miner.h" />
+		<Unit filename="StatisticsClass.cpp" />
+		<Unit filename="StatisticsClass.h" />
+		<Unit filename="UpdateClass.cpp" />
+		<Unit filename="UpdateClass.h" />
+		<Unit filename="chooker.h" />
+		<Unit filename="dllmain.cpp" />
+		<Unit filename="include/Baner.h" />
+		<Unit filename="include/Browser.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/Connection.h" />
+		<Unit filename="include/Log.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/Server.h" />
+		<Unit filename="include/ServersLoad.h" />
+		<Unit filename="include/Util.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/md5.h" />
+		<Unit filename="src/Baner.cpp" />
+		<Unit filename="src/Connection.cpp" />
+		<Unit filename="src/Server.cpp" />
+		<Unit filename="src/ServersLoad.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

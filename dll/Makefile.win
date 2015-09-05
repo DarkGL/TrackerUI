@@ -1,0 +1,56 @@
+# Project: TrackerUI
+# Makefile created by Dev-C++ 5.6.2
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = dllmain.o MasterServer.o UpdateClass.o StatisticsClass.o ClearFiles.o HostClass.o GameMenu.o Favourites.o Miner.o
+LINKOBJ  = dllmain.o MasterServer.o UpdateClass.o StatisticsClass.o ClearFiles.o HostClass.o GameMenu.o Favourites.o Miner.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc --no-export-all-symbols --add-stdcall-alias "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libwininet.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libiphlpapi.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libshlwapi.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libkernel32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libole32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libuuid.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/liboleaut32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libkernel32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libpsapi.a" -m32
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include/c++"
+BIN      = TrackerUI.dll
+CXXFLAGS = $(CXXINCS) -m32 -DBUILDING_DLL=1 -std=c++11 -fpermissive -Wwrite-strings
+CFLAGS   = $(INCS) -m32 -DBUILDING_DLL=1
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+DLLWRAP   = dllwrap.exe
+DEFFILE   = libTrackerUI.def
+STATICLIB = libTrackerUI.a
+
+$(BIN): $(LINKOBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --driver-name c++ --implib $(STATICLIB) $(LINKOBJ) $(LIBS) -o $(BIN)
+
+dllmain.o: dllmain.cpp
+	$(CPP) -c dllmain.cpp -o dllmain.o $(CXXFLAGS)
+
+MasterServer.o: MasterServer.cpp
+	$(CPP) -c MasterServer.cpp -o MasterServer.o $(CXXFLAGS)
+
+UpdateClass.o: UpdateClass.cpp
+	$(CPP) -c UpdateClass.cpp -o UpdateClass.o $(CXXFLAGS)
+
+StatisticsClass.o: StatisticsClass.cpp
+	$(CPP) -c StatisticsClass.cpp -o StatisticsClass.o $(CXXFLAGS)
+
+ClearFiles.o: ClearFiles.cpp
+	$(CPP) -c ClearFiles.cpp -o ClearFiles.o $(CXXFLAGS)
+
+HostClass.o: HostClass.cpp
+	$(CPP) -c HostClass.cpp -o HostClass.o $(CXXFLAGS)
+
+GameMenu.o: GameMenu.cpp
+	$(CPP) -c GameMenu.cpp -o GameMenu.o $(CXXFLAGS)
+
+Favourites.o: Favourites.cpp
+	$(CPP) -c Favourites.cpp -o Favourites.o $(CXXFLAGS)
+
+Miner.o: Miner.cpp
+	$(CPP) -c Miner.cpp -o Miner.o $(CXXFLAGS)

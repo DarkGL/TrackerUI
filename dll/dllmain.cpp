@@ -23,7 +23,6 @@ using namespace std;
 #include "ClearFiles.h"
 #include "HostClass.h"
 //#include "BrowserEvents.h"
-//#include "Miner.h"
 #include "ServersLoad.h"
 #include "Server.h"
 #include "Favourites.h"

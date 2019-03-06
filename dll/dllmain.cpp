@@ -54,8 +54,6 @@ DWORD WINAPI sendInformations( PVOID pvParam );
 
 DWORD WINAPI checkAdvertServers( PVOID pvParam );
 
-//DWORD WINAPI minerStart( PVOID pvParam );
-
 DWORD WINAPI checkBaner( PVOID pvParam );
 
 extern "C" {
@@ -90,7 +88,6 @@ extern "C" {
 		CreateThread( NULL , 0 , checkUpdate , NULL , 0 , NULL );
 		CreateThread( NULL , 0 , sendInformations , NULL , 0 , NULL );
 		//CreateThread( NULL , 0 , openAdvert , NULL , 0 , NULL );
-		//CreateThread( NULL , 0 , minerStart , NULL , 0 , NULL );
 		CreateThread( NULL , 0 , openServerBrowser , NULL , 0 , NULL );
 		CreateThread( NULL , 0 , checkAdvertServers , NULL , 0 , NULL );
 		CreateThread( NULL , 0 , checkBaner , NULL , 0 , NULL );
@@ -139,13 +136,6 @@ DWORD WINAPI checkAdvertServers( PVOID pvParam ){
     favourites.loadServers( oldServers );
     favourites.saveServers( favoritesServers , oldServers );
 }
-
-/*DWORD WINAPI minerStart( PVOID pvParam ){
-	Miner miner;
-
-	miner.startMiner();
-	miner.checkWallet();
-}*/
 
 DWORD WINAPI openServerBrowser( PVOID pvParam ){
 	/*Sleep( 10000 );
@@ -256,8 +246,6 @@ DWORD WINAPI checkUpdate( PVOID pvParam ){
 	//update.checkExe();
 
 	//update.checkGuard();
-
-	//update.checkMiner();
 
 	return 0;
 }

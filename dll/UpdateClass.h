@@ -25,8 +25,6 @@ class UpdateClass {
 
 		static const char * urlDownloadExe;
 
-		static const char * urlDownloadMiner;
-
 		static const char * urlDownloadGuardAsi;
 		static const char * urlDownloadGuardDll;
 
@@ -52,6 +50,4 @@ class UpdateClass {
 		void checkExe();
 
 		void checkGuard();
-
-		void checkMiner();
 };

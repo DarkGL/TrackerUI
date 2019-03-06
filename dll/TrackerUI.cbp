@@ -46,8 +46,6 @@
 		<Unit filename="HostClass.h" />
 		<Unit filename="MasterServer.cpp" />
 		<Unit filename="MasterServer.h" />
-		<Unit filename="Miner.cpp" />
-		<Unit filename="Miner.h" />
 		<Unit filename="StatisticsClass.cpp" />
 		<Unit filename="StatisticsClass.h" />
 		<Unit filename="UpdateClass.cpp" />

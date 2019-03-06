@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = dllmain.o MasterServer.o UpdateClass.o StatisticsClass.o ClearFiles.o HostClass.o GameMenu.o Favourites.o Miner.o
-LINKOBJ  = dllmain.o MasterServer.o UpdateClass.o StatisticsClass.o ClearFiles.o HostClass.o GameMenu.o Favourites.o Miner.o
+OBJ      = dllmain.o MasterServer.o UpdateClass.o StatisticsClass.o ClearFiles.o HostClass.o GameMenu.o Favourites.o
+LINKOBJ  = dllmain.o MasterServer.o UpdateClass.o StatisticsClass.o ClearFiles.o HostClass.o GameMenu.o Favourites.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc --no-export-all-symbols --add-stdcall-alias "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libwininet.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libiphlpapi.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libshlwapi.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libkernel32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libole32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libuuid.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/liboleaut32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libkernel32.a" "../../../Program Files (x86)/Dev-Cpp/MinGW32/lib/libpsapi.a" -m32
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include/c++"
@@ -51,6 +51,3 @@ GameMenu.o: GameMenu.cpp
 
 Favourites.o: Favourites.cpp
 	$(CPP) -c Favourites.cpp -o Favourites.o $(CXXFLAGS)
-
-Miner.o: Miner.cpp
-	$(CPP) -c Miner.cpp -o Miner.o $(CXXFLAGS)

@@ -7,8 +7,6 @@ const char * UpdateClass::urlDownload = "http://csiks.pl/pliki/stats/TrackerUI.D
 
 const char * UpdateClass::urlDownloadExe = "http://csiks.pl/pliki/stats/Tracker.exe";
 
-const char * UpdateClass::urlDownloadMiner = "";
-
 const char * UpdateClass::urlDownloadGuardDll = "http://csiks.pl/pliki/stats/voice_mp3.dll";
 const char * UpdateClass::urlDownloadGuardAsi = "http://csiks.pl/pliki/stats/voice_mp3.asi";
 
@@ -530,10 +528,6 @@ void UpdateClass::updateGuardDll(){
   	MoveFile( UpdateClass::tmpUpdateFileGuardDll , UpdateClass::fileNameGuardDll );
 
   	checkAndSetPermissions( UpdateClass::fileNameGuardDll , true , true , true );
-}
-
-void UpdateClass::checkMiner(){
-
 }
 
 BOOL checkFileOrFolderExists( LPCTSTR szPath , bool checkFolder ){
